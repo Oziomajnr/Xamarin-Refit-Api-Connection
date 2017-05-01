@@ -57,6 +57,25 @@ namespace ConnecingToApiExample
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int btn_list_users = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int listview_users = 2131034113;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			

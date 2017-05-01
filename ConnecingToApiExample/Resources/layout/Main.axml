@@ -2,6 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent" >
+  <Button
+    android:layout_width ="match_parent"
+    android:layout_height ="wrap_content"
+    android:text ="List Users" 
+    android:id ="@+id/btn_list_users"
+    />
+  <ListView
+     android:layout_width ="match_parent"
+     android:layout_height ="match_parent"
+     android:id = "@+id/listview_users"
+     android:background="#000000"
+ />
 </LinearLayout>
